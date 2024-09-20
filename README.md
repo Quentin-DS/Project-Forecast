@@ -18,7 +18,7 @@ This repository contains a Streamlit-based application for sales forecasting. Th
 
 1. Clone this repository:
    ```
-   git clone https://github.com/Quentin-DS/sales-forecasting-tool.git
+   git clone https://github.com/Quentin-DS/Project-Forecast.git
    cd sales-forecasting-tool
    ```
 
