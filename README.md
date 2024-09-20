@@ -2,6 +2,8 @@
 
 This repository contains a Streamlit-based application for sales forecasting. The tool allows users to upload sales data, process it, visualize trends, and generate forecasts using various models.
 
+Streamlit Project: https://itemforecast.streamlit.app/
+
 ## Features
 
 - Data loading and processing
