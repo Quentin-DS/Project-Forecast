@@ -4,7 +4,7 @@ numpy==1.24.3
 matplotlib==3.7.1
 seaborn==0.12.2
 statsmodels==0.13.5
-pmdarima==2.0.3
+pmdarima
 prophet==1.1.4
 scikit-learn==1.2.2
 scikit-optimize==0.9.0
