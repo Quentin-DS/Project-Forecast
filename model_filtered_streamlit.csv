@@ -1,0 +1,22 @@
+﻿,item,model,best_params,MAPE,business_control
+0,Item1,Prophet,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 0.07494806838781505, 'changepoint_range': 1.0, 'seasonality_mode': 'multiplicative', 'growth': 'flat'}",12.801777527615254,ok
+1,Item10,Prophet,"{'changepoint_prior_scale': 0.010243891926095927, 'seasonality_prior_scale': 1.0, 'changepoint_range': 0.9669310512794796, 'seasonality_mode': 'additive', 'growth': 'linear'}",1.6005731028092662,ok
+2,Item11,Prophet,"{'changepoint_prior_scale': 0.18268464761049238, 'seasonality_prior_scale': 1.0, 'changepoint_range': 0.7, 'seasonality_mode': 'additive', 'growth': 'linear'}",0.0006459874426933965,ok
+3,Item12,Prophet,"{'changepoint_prior_scale': 0.015682872346136075, 'seasonality_prior_scale': 1.0, 'changepoint_range': 0.7, 'seasonality_mode': 'additive', 'growth': 'linear'}",0.24996473027358856,ok
+4,Item13,Dummy,,17.98168166024152,ok
+5,Item14,Prophet,"{'changepoint_prior_scale': 0.2997802524812523, 'seasonality_prior_scale': 0.13863138738740746, 'changepoint_range': 0.7, 'seasonality_mode': 'multiplicative', 'growth': 'flat'}",87.73881959492718,forecast to be controlled
+6,Item15,Prophet,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 1.0, 'changepoint_range': 1.0, 'seasonality_mode': 'additive', 'growth': 'flat'}",0.2888736022997884,ok
+7,Item16,Prophet,"{'changepoint_prior_scale': 1.0, 'seasonality_prior_scale': 0.07212480952759744, 'changepoint_range': 0.7, 'seasonality_mode': 'additive', 'growth': 'flat'}",12.705879511328554,ok
+8,Item17,Prophet,"{'changepoint_prior_scale': 0.3090930292278868, 'seasonality_prior_scale': 0.0539288598207977, 'changepoint_range': 0.9477627631737136, 'seasonality_mode': 'multiplicative', 'growth': 'linear'}",0.2648181615737988,ok
+9,Item18,Prophet,"{'changepoint_prior_scale': 0.01234289918162111, 'seasonality_prior_scale': 0.2256003837508203, 'changepoint_range': 0.7, 'seasonality_mode': 'multiplicative', 'growth': 'linear'}",36.5181005315911,forecast to be controlled
+10,Item19,Prophet,"{'changepoint_prior_scale': 0.9979342256531479, 'seasonality_prior_scale': 0.8775679520590489, 'changepoint_range': 0.9682987795208373, 'seasonality_mode': 'additive', 'growth': 'linear'}",15.893360782935762,ok
+11,Item2,Prophet,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 0.02536881153714523, 'changepoint_range': 1.0, 'seasonality_mode': 'multiplicative', 'growth': 'flat'}",0.003747269282605714,ok
+12,Item20,LinearRegression,,100,forecast to be controlled
+13,Item21,Prophet,"{'changepoint_prior_scale': 0.012158216577383776, 'seasonality_prior_scale': 0.08477881183846823, 'changepoint_range': 0.8578578857718012, 'seasonality_mode': 'additive', 'growth': 'linear'}",6.979249553202016,ok
+14,Item3,Prophet,"{'changepoint_prior_scale': 0.31739629443731543, 'seasonality_prior_scale': 0.11709524276907102, 'changepoint_range': 0.7, 'seasonality_mode': 'additive', 'growth': 'linear'}",0.019224014891672248,ok
+15,Item4,SARIMA,"{'maxiter': 50, 'method': 'lbfgs', 'order': (0, 0, 0), 'out_of_sample_size': 0, 'scoring': 'mse', 'scoring_args': {}, 'seasonal_order': (0, 0, 0, 0), 'start_params': None, 'suppress_warnings': True, 'trend': None, 'with_intercept': True}",29.34778563453664,ok
+16,Item5,Prophet,"{'changepoint_prior_scale': 1.0, 'seasonality_prior_scale': 0.14696051484774109, 'changepoint_range': 1.0, 'seasonality_mode': 'multiplicative', 'growth': 'flat'}",6.801409949905413,ok
+17,Item6,Prophet,"{'changepoint_prior_scale': 0.8227457916303155, 'seasonality_prior_scale': 0.13275825181360454, 'changepoint_range': 0.7474869559225561, 'seasonality_mode': 'multiplicative', 'growth': 'flat'}",72.87195428853768,forecast to be controlled
+18,Item7,SARIMA,"{'maxiter': 50, 'method': 'lbfgs', 'order': (0, 0, 0), 'out_of_sample_size': 0, 'scoring': 'mse', 'scoring_args': {}, 'seasonal_order': (0, 0, 0, 0), 'start_params': None, 'suppress_warnings': True, 'trend': None, 'with_intercept': True}",24.973430165618616,ok
+19,Item8,SARIMA,"{'maxiter': 50, 'method': 'lbfgs', 'order': (0, 0, 0), 'out_of_sample_size': 0, 'scoring': 'mse', 'scoring_args': {}, 'seasonal_order': (0, 0, 0, 0), 'start_params': None, 'suppress_warnings': True, 'trend': None, 'with_intercept': True}",16.72016274864374,ok
+20,Item9,Prophet,"{'changepoint_prior_scale': 0.1303119256306617, 'seasonality_prior_scale': 0.01, 'changepoint_range': 1.0, 'seasonality_mode': 'multiplicative', 'growth': 'linear'}",1.0902028183299883,ok
