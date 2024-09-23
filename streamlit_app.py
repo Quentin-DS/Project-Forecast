@@ -215,18 +215,18 @@ if page == pages[4] :
   st.write("""## Generate the Forecast
   
   ### Methodology
-  
-  First we will test different periods on the total sales, in order to find the lower MAPE. 
-           To do this, we will use the Prophet forecasting model and perform a cross validation to find the parameters that result in the lower MAPE on the given period.
-  Then we will use the forecasting model on the same period for each item.
-  
+
+  Forecasting model total sales:
+  We will calculate the Forecast on the total sales, and return the MAPE. 
+           To do this, we will use the Prophet forecasting model and perform a cross validation to find the parameters that result in the lower MAPE on the given period (12 months).
+    
   Forecasting model by item:
    1. Run 4 models on each item and save the MAPE results and the parameters: Prophet, SARIMA, Linear Regression, Dummy
-  *The test period is the end period of the dataset, respecting the length selected for the forecasting period.
+  *The test period is the end period of the dataset, respecting the length of the forecasting period (12 months).
    2. For Prophet and SARIMA, perform a cross validation to optimize the parameters in order to lower the MAPE.
    3. For each item, compare the MAPE results and select the best model.
    4. Finally run the forecast on the given period and concatenate all the result in an excel file.
-   Important: in order to be align with a manufacturing strategy, the MAPE is calculated on the total period, not each month.
+   Important: in order to be align with a manufacturing strategy, the MAPE is calculated on the total period, not each month. The manufacturing production planning is relevant on a yearly bases in order to plan ressources.
            
   Formula is: MAPE = ABS(sum(Forecast) / sum(Test Period) - 1) *100""")
 
@@ -475,4 +475,8 @@ if page == pages[5]:
 if page == pages[6]:
   st.write("""To enhance model robustness the next steps should be:
   - incorporate manual input capabilities for contracted sales.
-  - the auto ARIMA model's performance can be potentially improved by expanding parameter space while employing scikit-optimize to mitigate computational overhead.""")
+  - the auto ARIMA model's performance can be potentially improved by expanding parameter space while employing scikit-optimize to mitigate computational overhead.
+  - allow the user to select the forecasting period.
+  - allow the user to select the MAPE calculation: full period or by month.
+  - connect a LLM to improve the user experience ?
+  - add feedbacks from users ?""")
